@@ -1,0 +1,13 @@
+server:
+  # 启动多次 记得换端口
+  port: 8763
+
+spring:
+  application:
+    name: eureka-client
+
+eureka:
+  client:
+    serviceUrl:
+      # 注册中心地址
+      defaultZone: http://localhost:8761/eureka/
