@@ -1,6 +1,6 @@
 server:
   # 启动多次 记得换端口
-  port: 8763
+  port: 8762
 
 spring:
   application:
@@ -10,4 +10,4 @@ eureka:
   client:
     serviceUrl:
       # 注册中心地址
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8760/eureka/
